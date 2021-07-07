@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with CSS Modules
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project is a demo for using [CSS Modules](https://github.com/css-modules/css-modules).
 
 ## Available Scripts
 
@@ -44,3 +46,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Further Reading
+
+[CSS Tricks CSS Modules Part 1](https://css-tricks.com/css-modules-part-1-need/)
+
+[CSS Tricks CSS Modules Part 2](https://css-tricks.com/css-modules-part-2-getting-started/)
+
+[CSS Tricks CSS Modules Part 3](https://css-tricks.com/css-modules-part-3-react/)
+
+[Glen Maddern CSS Modules](https://glenmaddern.com/articles/css-modules)
+
+[Sitepoint CSS Modules Methodology](https://www.sitepoint.com/understanding-css-modules-methodology/)
+
+[Create React App Adding Sass](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+
+[Using CSS Modules with Material UI](https://material-ui.com/guides/interoperability/#css-modules)
