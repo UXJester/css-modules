@@ -1,0 +1,34 @@
+.simpleComponentBase {
+  color: #000;
+  margin: 25px;
+  padding: 10px;
+}
+
+.simpleComponentBorder {
+  border: 1px solid #000;
+  composes: simpleComponentBase;
+  margin: 30px;
+}
+
+.simpleComponentExtend {
+  @extend .simpleComponentBase;
+  border: 1px solid #000;
+  .inner {
+    margin: 10px;
+    border: 1px dashed #000;
+    &--modifier {
+      border-color: #ff0000;
+      color: #0000ff;
+    }
+  }
+}
+
+.simpleComponentUgly {
+  composes: otherComponent from '../OtherComponent/index.module.scss';
+}
+
+:global {
+  .globalClass {
+    font-size: 26px;
+  }
+}
